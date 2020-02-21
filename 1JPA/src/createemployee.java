@@ -12,7 +12,7 @@ public class createemployee {
 		Employee hola = new Employee(2, "Jordi2", 1501, "Programador");
 		
 
-		entitymanager.persist(hola);
+		entitymanager.persist(hola); 
 		entitymanager.getTransaction().commit();
 		entitymanager.close();
 		emfactory.close();
